@@ -1,5 +1,4 @@
-FROM debian:jessie
-
+FROM docker.clarin.eu/base:1.0.0
 MAINTAINER CLARIN System Operators "sysops@clarin.eu"
 
 ENV NGINX_VERSION 1.9.9-1~jessie
